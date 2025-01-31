@@ -1,0 +1,22 @@
+html {
+  font-size: 14px;  /* 14픽셀이라는 절대값 */
+}
+
+div {
+  font-size: 2em;   /* 중간은 바깥*2 안쪽은 중간*2 */
+}
+
+p {
+  /* text-decoration: line-through; */
+  /* text-decoration: underline; */
+  /* text-decoration: overline; */
+  /* text-decoration: line-through underline overline; */
+
+}
+
+span {
+  /* text-decoration: wavy underline tomato; */
+  /* text-decoration: dotted underline overline blue 4px; 점선선언 : dotted /
+  font-size가 아니라 text-decoration에 4px 지정한 것 */
+  text-decoration: dashed line-through;
+}
